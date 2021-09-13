@@ -41,7 +41,6 @@ while lives >0:
             print(letter, end="")
         else:
             print("_", end="")
-            #lives +=1
     if word is word_to_guess:
         print("great job "+name+" you just found the word was "+word_to_guess+" with "+str(lives)+" left ")
         break
